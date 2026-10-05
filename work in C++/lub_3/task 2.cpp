@@ -41,22 +41,22 @@ int main() { // объявляем главную функцию
 		std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 		// очистка буфера от мусора
 	}
-	if (number1 < number2 && number2 < number3) {
+	if (number1 <= number2 && number2 <= number3) {
 		std::cout << "\n === Ответ === | " << number1 << " | " << number2 << " | " << number3;
 	}
-	if (number2 < number1 && number1< number3) {
+	else if (number2 <= number1 && number1 <= number3) {
 		std::cout << "\n === Ответ === | "  << number2 << " | " << number1 << " | " << number3;
 	}
-	if (number3 < number2 && number2 < number1) {
+	else if (number3 <= number2 && number2 <= number1) {
 		std::cout << "\n === Ответ === | " << number3 << " | " << number2 << " | " << number1;
 	}
-	if (number3 < number1 && number1 < number2) {
+	else if (number3 <= number1 && number1 <= number2) {
 		std::cout << "\n === Ответ === | " << number3 << " | " << number1 << " | " << number2;
 	}
-	if (number1 < number3 && number3 < number2) {
+	else if (number1 <= number3 && number3 <= number2) {
 		std::cout << "\n === Ответ === | " << number1 << " | " << number3 << " | " << number2;
 	}
-	if (number2 < number3 && number3 < number1) {
+	else if (number2 <= number3 && number3 <= number1) {
 		std::cout << "\n === Ответ === | " << number2 << " | " << number3 << " | " << number1;
 	}
 	// Условия для записи трёх чисел в возрастающем порядке
