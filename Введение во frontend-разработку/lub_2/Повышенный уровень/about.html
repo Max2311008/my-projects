@@ -1,0 +1,125 @@
+<!DOCTYPE html> <!-- Объявляет тип документа(HTML5) -->
+<html lang = "ru"> <!-- Указывает, что язык документа - русский -->
+<head> <!-- Содержит информацию о документе -->
+     <meta charset = "UTF - 8"> <!-- Указывает кодировку документа --> <!-- ВНИМАНИЕ: правильнее писать charset="UTF-8" без пробелов -->
+     <meta name = "viewport" content = "width = device-width, initial-scale = 1.0"> <!-- Настройка для мобильных устройств -->
+    <title>Обо мне</title> <!-- Заголовок страницы -->
+</head> <!-- Закрытие информации о документе -->
+<body> <!-- видимое содержимое страницы -->
+    <!-- about.html -->
+    <header> <!-- Шапка сайта -->
+        <h1>Обо мне</h1> <!-- Заголовок 1 -->
+        <div style="align-items:center;gap:10px;font-size:25px;">
+          <img src="https://avatars.mds.yandex.net/i?id=982b9ff4640a92d4c07bf9bbb92bd48c8effe4b5-4219583-images-thumbs&n=13" width="25 px" height="25 px" alt="ОБНОВИ ПК">
+            <i><b>Здесь вы узнаете много информации обо мне</i></b>
+              <img src="https://avatars.mds.yandex.net/i?id=982b9ff4640a92d4c07bf9bbb92bd48c8effe4b5-4219583-images-thumbs&n=13" width="25 px" height="25 px" alt="ОБНОВИ ПК">
+            </div>
+        <nav> <!-- Навигационное меню -->
+            <ul type="square">
+                <li><a href="index.html">Главная</a></li> <!--  ссылка на файл index.html -->
+                <li><a href="about.html">Обо мне</a></li> <!--  ссылка на файлabout.html -->
+                <li><a href="friends.html">Друзья</a></li> <!--  ссылка на файл "friends.html -->
+                <li><a href="hobbies.html">Увлечения</a></li> <!--  ссылка на файл hobbies.html -->
+                <li><a href="group.html">Группа</a></li> <!--  ссылка на файл group.html -->
+            </ul> <!-- закрытие маркированного списка -->
+        </nav> <!-- закрытие навигационного меню -->
+
+        <nav>
+            <p><i><b>Навигация по странице:</b></i></p>
+            <ul type="square">
+                <li><a href="#biograph">Биография</a></li>
+                <li><a href="#skills">Навыки</a></li>
+                <li><a href="#dop information">Дополнительная информация</a></li>
+                <li><a href="#contacts">Мои контакты</a></li>
+            </ul>
+        </nav>
+    </header>  <!-- закрытие шапки сайта -->
+
+    <hr> <!--  создает горизонтальную линию-разделитель -->
+
+    <main> <!-- Основное содержимое страницы -->
+        <section id="biograph">
+            <h2>Биография</h2> <!-- Заголовок 2 -->
+
+
+           <figure>
+             <img src="images1.jpg" width="250 px" height="250 px" alt="ОБНОВИ ПК">
+             <figcaption>Киркачев Максим Евгеньевич — студент 1 курса, ПИЖ-б-о-26-1</figcaption>
+           </figure>
+
+
+             <div style="font-size:20px;">
+            <p>Меня зовут <strong>Максим Евгеньевич</strong>. Я студент первого курса,направление «Программная инженерия!». Родился 23.11.2008 г. <br>С детсва имел интерес к строению компьютера и к игре в волейбол.</p>
+            <p>Увлекаюсь программирование, изучаю базовый уровень <em>HTML</em>, <em>CSS</em> и <em>С++</em>,<em>Python</em>.<br>Люблю играть в компьютерные игры.</p> <!-- создание абзаца,выделение текста жирным и курсивным шрифтами -->
+            </div>
+        </section> <!-- закрытие тематического раздела -->
+
+        <hr>
+
+        <section id="skills">
+          <div style="font-size:20px;">
+            <h3>Навыки:</h3> <!-- Заголовок 3 -->
+            <ol start ='1' type = 'a'> <!-- создание нумерованного списка -->
+                <li>HTML <!-- отметка каждого элемента списка -->
+                    <ul type ="square">
+                        <li>Изучение основных тегов</li>
+                        <li>Изучение элементов</li>
+                    </ul>
+                </li>
+                <li>CSS
+                    <ul type ="square">
+                        <li>команды для изменения шрифтов,размеров,цвета</li>
+                    </ul>
+                </li>
+                <li>Python
+                  <ul type ="square">
+                        <li>Циклы</li>
+                        <li>Строение алгоритмов</li>
+                    </ul>
+                </li>
+                <li>С++
+                  <ul type ="square">
+                        <li>Изучение базовых команд</li>
+                        <li>Работа с переменными</li>
+                        <li>Работа с условиямии и с типами данных</li>
+                    </ul>
+                </li>
+            </ol>  <!-- закрытие нумерованного списка -->
+            </div>
+        </section>
+
+        <hr>
+
+        <aside id="extra"> <!-- создание дополнительной информации -->
+            <div style="font-size:20px;">
+            <h4><b>Дополнительная информация</b></h4> <!-- Заголовок 4 -->
+            <dl> <!-- Описательный  список -->
+                <dt>Языки программирования</dt> <!-- Термин -->
+                <dd>Python, C++</dd> <!-- описание термина -->
+                <dt>Инструменты</dt>
+                <dd>Visual Studio, Git</dd>
+                <dt>Хобби</dt>
+                <dd>Волейбол</dd>
+            </dl>  <!-- закрытие описательного  списка -->
+            </div>
+        </aside>  <!-- создание дополнительной информации -->
+
+        <hr>
+
+
+        <section id="contacts">
+            <h3>Мои контакты</h3>
+            <ul type="square">
+                <li><a href="https://vk.ru/id853755627" target="_blank">ВКонтакте</a></li>
+                <li><a href="https://github.com/Max2311008" target="_blank">GitHub</a></li>
+                <li><a href="https://max.ru/u/f9LHodD0cOKMyT-k2QMI7de5b2y-62Y87FgGY-yaeaStyH9A6fHM_HCtBzA" target="_blank">MAX</a></li>
+            </ul>
+        </section>
+    </main> <!--  закрытие основного содержимое страницы -->
+
+    <hr>
+
+    <footer>  @ 2026 г, все права защищены
+    </footer> <!-- закрытие подвала сайта -->
+</body> <!-- закрывает видимое содержание страницы -->
+</html> <!-- Закрывает информацию о документе -->

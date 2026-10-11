@@ -1,0 +1,151 @@
+<!DOCTYPE html> <!-- Объявляет тип документа(HTML5) -->
+<html lang = "ru"> <!-- Указывает, что язык документа - русский -->
+<head> <!-- Содержит информацию о документе -->
+     <meta charset = "UTF - 8"> <!-- Указывает кодировку документа --> <!-- ВНИМАНИЕ: правильнее charset="UTF-8" без пробелов -->
+     <meta name = "viewport" content = "width = device-width, initial-scale = 1.0"> <!-- Настройка для мобильных устройств -->
+    <title>Друзья</title> <!-- Заголовок страницы -->
+</head> <!-- Закрытие информации о документе -->
+<body> <!-- видимое содержимое страницы -->
+    <!-- friends.html -->
+    <header> <!-- Шапка сайта -->
+      <div style="align-items:center;gap:10px;font-size:25px;">
+        <img src="https://avatars.mds.yandex.net/i?id=7179908e8c3ec3977ed2063df65ff69b9bfeecca-5858040-images-thumbs&n=13" width="40 px" height="40 px" alt="ОБНОВИ ПК">
+          <i><b>Тут показанные самые крутые и лучшие персоны на свете</b></i>
+            <img src="https://avatars.mds.yandex.net/i?id=7179908e8c3ec3977ed2063df65ff69b9bfeecca-5858040-images-thumbs&n=13" width="40 px" height="40 px" alt="ОБНОВИ ПК">
+          </div>
+        <nav> <!-- Навигационное меню -->
+            <ul type="square">
+                <li><a href="index.html">Главная</a></li> <!--  ссылка на файл index.html -->
+                <li><a href="about.html">Обо мне</a></li> <!--  ссылка на файлabout.html -->
+                <li><a href="friends.html">Друзья</a></li> <!--  ссылка на файл "friends.html -->
+                <li><a href="hobbies.html">Увлечения</a></li> <!--  ссылка на файл hobbies.html -->
+                <li><a href="group.html">Группа</a></li> <!--  ссылка на файл group.html -->
+            </ul> <!-- закрытие маркированного списка -->
+        </nav> <!-- закрытие навигационного меню -->
+
+
+        <nav>
+            <p><i><b>Навигация по странице:</b></i></p>
+            <ul type="square">
+                <li><a href="#intro">Краткая информация</a></li>
+                <li><a href="#list">Список друзей</a></li>
+                <li><a href="#details">Подробнее о друзьях</a></li>
+            </ul>
+        </nav>
+    </header> <!-- закрытие шапки сайта -->
+
+    <hr> <!--  создает горизонтальную линию-разделитель -->
+
+    <main> <!-- Основное содержимое страницы -->
+      <h1>Мои друзья</h1>
+        <img src="images2.jpg" width="550 px" height="450 px" alt="ОБНОВИ ПК">
+        <section id="intro"> <!-- Тематический раздел -->
+            <h2>Краткая информация о моих ЛЕГЕНДАРНЫХ друзьях</h2> <!-- Заголовок 2 -->
+              <div style="font-size:25px;">
+            <p><i>У меня есть много хороших друзей, с которыми я люлбю проводить много времени.<br>Но на этом сайте я хочу выделить VIP пользователей.<br>Именно с этими Великими людьми мы прошли начальный путь.<br>Я понял, что с такими друзьями мы пройдём очень непростой путь на нашей специальности.<br>И благодаря такой слаженности обойдём все проблемы и сможем выкрутиться в лучшую сторону из любых ситуаций.</i></p>
+            </div> <!-- создание абзаца,перенос строк на новую строку -->
+        </section> <!-- закрытие тематического раздела -->
+
+        <hr>
+
+        <section id="list friends">
+          <div style="font-size:19px;">
+             <h3>Список друзей</h3> <!-- Заголовок 3 -->
+    <ul type="square">
+        <li>Бирюков Егор <!--  отметка каждого элемента списка -->
+            <ul type="square">
+                <li>Интересы: программирование, футбол, борьба</li>
+            </ul>
+        </li>
+        <li>Марьевская Диана
+            <ul type="square">
+                <li>Интересы: программирование, прохождение сюжетных игр скаченных с Torrent</li>
+            </ul>
+        </li>
+        <li>Лоиков Владислав
+            <ul type="square">
+                <li>Интересы: волейбол, программирование</li>
+            </ul>
+        </li>
+        <li>Головко Денис
+            <ul type="square">
+                <li>Интересы: игры на гитаре, программирование</li>
+            </ul>
+        </li>
+        <li>Бабаян Артём
+            <ul type="square">
+                <li>Интересы: игры компьютерные, игра на пианино, баскетбол иногда.</li>
+            </ul>
+        </li>
+        <li>Антонова Анна
+            <ul type="square">
+                <li>Интересы: смотреть фильмы в разных жанрах, программирование</li>
+            </ul>
+        </li>
+    </ul>
+    </div>
+    <hr>
+     <aside id="details">
+         <div style="font-size:19px;">
+    <h4>Дополнительная информация о друзьях</h4> <!-- Заголовок 4 -->
+    <dl> <!-- Описательный  список -->
+        <dt><b>Егор</b></dt> <!-- Термин -->
+        <dd style="color: red;"><b>Учится на программиста, любит спорт, обожает математический анализ.</b></dd> <!-- описание термина -->
+          <img src="images7.jpg" width="250 px" height="250 px" alt="Бирюков Егор">
+        <dt><b>Владислав</b></dt>
+        <dd style="color: green;"><b>Занимается программированием на более высоком уровне, играет в волейбол.</b></dd>
+          <img src="images8.jpg" width="250 px" height="250 px" alt="Лоиков Владислав">
+        <dt><b>Денис</b></dt>
+        <dd  style="color: blue;"><b>Увлекается игрой на гитаре.</b></dd>
+        <img src="images3.jpg" width="250 px" height="250 px" alt="Головко Денис">
+         <dt><b>Диана</b></dt>
+        <dd  style="color: orange;"><b>Заинтересована прохождением игр с глубоким сюжетом.</b></dd>
+          <img src="images5.jpg" width="250 px" height="250 px" alt="Марьевская Диана">
+        <dt><b>Артём</b></dt>
+        <dd style="color: red;"><b>Чудесный программист.</b></dd>
+          <img src="images6.jpg" width="250 px" height="250 px" alt="Бабаян Артём">
+        <dt><b>Анна</b></dt>
+        <dd style="color: green;"><b>Гениальный староста</b></dd>
+        <img src="images4.jpg" width="250 px" height="250 px" alt="Антонова Анна">
+    </dl> <!-- закрытие описательного  списка -->
+      </div>
+        </aside> <!-- создание дополнительной информации -->
+
+        <hr>
+        <section id="gallery">
+            <h3>Галерея друзей</h3>
+            <div style="display:flex; flex-wrap:wrap; gap:20px;">
+                <figure>
+                    <img src="images7.jpg" width="150" alt="Бирюков Егор">
+                    <figcaption>Егор</figcaption>
+                </figure>
+                <figure>
+                    <img src="images5.jpg" width="150" alt="Марьевская Диана">
+                    <figcaption>Диана</figcaption>
+                </figure>
+                <figure>
+                    <img src="images8.jpg" width="150" alt="Лоиков Владислав">
+                    <figcaption>Владислав</figcaption>
+                </figure>
+                <figure>
+                    <img src="images3.jpg" width="150" alt="Головко Денис">
+                    <figcaption>Денис</figcaption>
+                </figure>
+                <figure>
+                    <img src="images6.jpg" width="150" alt="Бабаян Артём">
+                    <figcaption>Артём</figcaption>
+                </figure>
+                <figure>
+                    <img src="images4.jpg" width="150" alt="Антонова Анна">
+                    <figcaption>Анна</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main> <!--  закрытие основного содержимое страницы -->
+
+    <hr>
+
+    <footer>  @ 2026 г, все права защищены
+    </footer> <!-- закрытие подвала сайта -->
+</body> <!-- закрывает видимое содержание страницы -->
+</html> <!-- Закрывает информацию о документе -->
