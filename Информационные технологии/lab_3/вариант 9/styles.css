@@ -1,0 +1,52 @@
+h1 {
+  border: 3px solid black;
+  border-radius: 6px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  background-color: rgba(0, 0, 0,0.01);
+  color:#232;
+  margin:0;
+  padding: 30px;
+  text-shadow: 2px 1px 3px rgba(200, 0, 0, 0.5);
+}
+h2 {
+  border: 3px solid black;
+  border-radius: 6px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  background-color: rgba(0, 0, 200,0.5);
+  color:#232;
+  margin:0;
+  padding: 30px;
+  text-shadow: 2px 1px 3px rgba(200, 0, 0, 0.5);
+}
+
+h3 {
+  border: 3px solid black;
+  border-radius: 6px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  background-color: rgba(200, 0, 0, 0.5);
+  color:#232;
+  margin:0;
+  padding: 30px;
+text-shadow: 2px 1px 3px rgba(0, 0, 200, 0.2);
+}
+.news-1{
+  color: green;
+  padding: 20px;
+  margin-bottom: 15px;
+  text-shadow: 2px 1px 3px rgba(200, 0, 0, 0.5);
+}
+.news-2{
+  color: yellow;
+  padding: 20px;
+  margin-bottom: 15px;
+  text-shadow: 2px 1px 3px rgba(200, 0, 0, 1);
+}
+.news-3{
+  color: blue;
+  padding: 20px;
+  margin-bottom: 15px;
+  text-shadow: 2px 1px 3px rgba(200, 0, 0, 2);
+}
