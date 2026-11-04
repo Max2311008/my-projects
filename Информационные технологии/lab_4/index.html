@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+ <meta charset="UTF-8">
+ <title>Проверка email</title>
+ <style>
+ body {
+ font-family: Arial, sans-serif;
+ background: #f4f4f4;
+ display: flex;
+ justify-content: center;
+ padding: 40px;
+ }
+ .container {
+ background: #fff;
+ padding: 25px;
+ border-radius: 8px;
+ width: 350px;
+ box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+ }
+ h1 {
+ font-size: 20px;
+ margin-bottom: 20px;
+ text-align: center;
+ }
+ label {
+ display: block;
+ margin-bottom: 5px;
+ font-weight: bold;
+ }
+ input,
+ select {
+ width: 100%;
+ padding: 8px;
+ margin-bottom: 15px;
+ border: 2px solid #ddd;
+ border-radius: 4px;
+ font-size: 16px;
+ box-sizing: border-box;
+ }
+ button {
+ width: 100%;
+ padding: 10px;
+ background-color: orange;
+ color: #fff;
+ border: none;
+ border-radius: 4px;
+ font-size: 16px;
+ cursor: pointer;
+ }
+ button:hover {
+ background: #2980b9;
+ }
+ #result {
+ margin-top: 20px;
+ padding: 15px;
+ border-left: 5px solid #ddd;
+ background: #f9f9f9;
+ border-radius: 4px;
+ line-height: 1.6;
+ }
+ </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Проверка email</h1>
+        <label for="email">Введите email</label>
+        <input type="text" id="email" placeholder="Например, best@gmail.com">
+        <button id="checkBtn">Проверка</button>
+        <div id="result">Введите email и нажмите на кнопку Проверка</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
