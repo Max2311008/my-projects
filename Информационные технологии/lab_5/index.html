@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Таблица расписания занятий</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="main">
+        <h1>Расписание занятий на неделю</h1>
+        <div class="table-wrapper">
+            <table class="schedule-table" aria-describedby="table-desc">
+                <caption id="table-desc" class="schedule-table_caption">
+                    Расписание занятий группы ПИЖ-б-о-26-1 
+                </caption>
+                <thead>
+                    <tr>
+                        <th scope="col" class="schedule-table_header-time">Время</th>
+                        <th scope="col" class="schedule-table_header">Понедельник</th>
+                        <th scope="col" class="schedule-table_header">Вторник</th>
+                        <th scope="col" class="schedule-table_header">Среда</th>
+                        <th scope="col" class="schedule-table_header">Четверг</th>
+                        <th scope="col" class="schedule-table_header">Пятница</th>
+                        <th scope="col" class="schedule-table_header">Суббота</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="schedule-table_row">
+                     <th scope="row" class="schedule-table_header-time">08:00-09:30</th> 
+                     <td class="schedule-table_subject">-</td>
+                     <td class="schedule-table_subject">История России(лекция)<br><span class="schedule-table_teacher">Любушкина Е.Ю.</span></td>
+                     <td class="schedule-table_subject">-</td>
+                     <td class="schedule-table_subject">Алгебра(лекция)<br><span class="schedule-table_teacher">Даржания А.Д.</span></td>
+                     <td class="schedule-table_subject">-</td>
+                     <td class="schedule-table_subject">Междисциплинарный проектный практикум-1<br><span class="schedule-table_teacher">Самойлов Ф.В.</span></td>   
+                    </tr>
+                    <tr class="schedule-table_row">
+                         <th scope="row" class="schedule-table_header-time">09:40-11:10</th> 
+                          <td class="schedule-table_subject">-</td>
+                          <td class="schedule-table_subject">Информационные технологии и программирование(лекция)<br><span class="schedule-table_teacher">Новикова Е.Н.</span></td>
+                          <td class="schedule-table_subject">-</td>
+                          <td class="schedule-table_subject">Введение в программирование и алгоритмы(лекция)<br><span class="schedule-table_teacher">Новикова Е.Н.</span></td>
+                          <td class="schedule-table_subject">-</td>
+                          <td class="schedule-table_subject">Междисциплинарный проектный практикум-1<br><span class="schedule-table_teacher">Самойлов Ф.В.</span></td>
+                    </tr>
+                    <tr class="schedule-table_row">
+                         <th scope="row" class="schedule-table_header-time">11:20-12:50</th>
+                           <td class="schedule-table_subject">Введение в программирование и алгоритмы(лабораторная работа)<br><span class="schedule-table_teacher">Николаев Е.И.</span></td>
+                           <td class="schedule-table_subject">-</td>
+                           <td class="schedule-table_subject">-</td>
+                           <td class="schedule-table_subject">-</td>
+                           <td class="schedule-table_subject">-</td>
+                           <td class="schedule-table_subject">-</td>
+                    </tr>
+                    <tr class="schedule-table_row">
+                         <th scope="row" class="schedule-table_header-time">13:20-14:50</th>
+                         <td class="schedule-table_subject">Английский язык<br><span class="schedule-table_teacher">Федюк Д.О.</span></td>
+                         <td class="schedule-table_subject">-</td>
+                         <td class="schedule-table_subject">-</td>
+                         <td class="schedule-table_subject">-</td>
+                         <td class="schedule-table_subject">-</td>
+                         <td class="schedule-table_subject">-</td>
+                    </tr>
+                     <tr class="schedule-table_row">
+                         <th scope="row" class="schedule-table_header-time">15:00-16:30</th>
+                         <td class="schedule-table_subject">Информационные технологии и программирование(лабораторная работа)<br><span class="schedule-table_teacher">Новикова Е.Н.</span></td>
+                         <td class="schedule-table_subject">-</td>
+                         <td class="schedule-table_subject">Введение в программирование и алгоритмы(лекция)<br><span class="schedule-table_teacher">Новикова Е.Н.</span></td>
+                         <td class="schedule-table_subject">-</td>
+                         <td class="schedule-table_subject">-</td>
+                         <td class="schedule-table_subject">Проектная деятельность<br><span class="schedule-table_teacher">Пирогов П.И.</span></td>
+                    </tr>
+                     <tr class="schedule-table_row">
+                         <th scope="row" class="schedule-table_header-time">16:50-18:20</th>
+                         <td class="schedule-table_subject">-</td>
+                         <td class="schedule-table_subject">-</td>
+                         <td class="schedule-table_subject">Алгебра(практика)<br><span class="schedule-table_teacher">Даржания А.Д.</span></td>
+                         <td class="schedule-table_subject">-</td>
+                         <td class="schedule-table_subject">-</td>
+                         <td class="schedule-table_subject">Введение в DevOps(лабораторная работа)<br><span class="schedule-table_teacher">Бобылёв Д.М.</span></td>
+                    </tr>
+                    <tr class="schedule-table_row">
+                         <th scope="row" class="schedule-table_header-time">18:30-20:00</th>
+                         <td class="schedule-table_subject">-</td>
+                          <td class="schedule-table_subject">Введение в DevOps(лабораторная работа)<br><span class="schedule-table_teacher">Бобылёв Д.М.</span></td>
+                         <td class="schedule-table_subject">-</td>
+                         <td class="schedule-table_subject">-</td>
+                         <td class="schedule-table_subject">-</td>
+                         <td class="schedule-table_subject">-</td>
+                </tbody>
+            </table>
+        </div>
+        <p> *Раcписание может быть изменено в течение дня. Следите за обновлениями на портале eCampus</p>
+    </main>
+</body>
+</html>
