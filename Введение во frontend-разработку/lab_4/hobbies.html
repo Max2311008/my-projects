@@ -1,0 +1,109 @@
+<!DOCTYPE html> <!-- Объявляет тип документа(HTML5) -->
+<html lang = "ru"> <!-- Указывает, что язык документа - русский -->
+<head> <!-- Содержит информацию о документе -->
+     <meta charset = "UTF - 8"> <!-- Указывает кодировку документа -->
+     <meta name = "viewport" content = "width = device-width, initial-scale = 1.0"> <!-- Настройка для мобильных устройств -->
+    <title>Увлечения</title> <!-- Заголовок страницы -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head> <!-- Закрытие информации о документе -->
+<body> <!-- видимое содержимое страницы -->
+    <!-- hobbies.html -->
+     <div class="layout">
+    <header> <!-- Шапка сайта -->
+        <div style="align-items:center;gap:10px;font-size:25px;">
+            <i><b>Какое же моё любимое увлечение????</b></i>
+            </header> <!-- закрытие шапки сайта -->
+        <nav class="sidebar"> <!-- Навигационное меню -->
+            <ul> <!-- создает маркированный список -->
+                <li><a href="index.html">Главная</a></li> <!--  ссылка на файл index.html -->
+                <li><a href="about.html">Обо мне</a></li> <!--  ссылка на файлabout.html -->
+                <li><a href="friends.html">Друзья</a></li> <!--  ссылка на файл "friends.html -->
+                <li><a href="hobbies.html">Увлечения</a></li> <!--  ссылка на файл hobbies.html -->
+                <li><a href="group.html">Группа</a></li> <!--  ссылка на файл group.html -->
+            </ul> <!-- закрытие маркированного списка -->
+            <p><i><b>Навигация по странице:</b></i></p>
+            <ul type="square">
+                <li><a href="#my like hobbi">Моё любимое Хобби</a></li>
+                <li><a href="#list hobbies">Список увлечений</a></li>
+                <li><a href="#description of hobbies">Описание увлечений</a></li>
+            </ul>
+        </nav>
+
+
+    <main> <!-- Основное содержимое страницы -->
+      <h1>Мои увлечения</h1> <!-- Заголовок 1 -->
+        <section id = "my like hobbi"> <!-- Тематический раздел -->
+              <div style="font-size:23px;">
+            <p>В свободное время я люблю заниматься углублённым изучением строения компьютера.<br>А также изучать программирование или ходить отдыхать игрой в волейбол. Раньше, когда я был маленьким, увлекался коллекционированием пластиковых динозавриков.</p>
+            </div>
+            <h2> <i>Моё самое любимое Хобби</i> </h2> <!-- Заголовок 2 -->
+              <img src="https://avatars.mds.yandex.net/i?id=291d02ff0b73cb065e6006dd99824ed5cd3dc18e-5906493-images-thumbs&n=13" width="550 px" height="300 px" alt="Волейбол">
+        </section> <!-- закрытие тематического раздела -->
+        <section id = "list hobbies">
+            <h3>Список увлечений</h3>
+            <ol> <!-- создание нумерованного списка -->
+              <div style="font-size:20px;">
+                <li><b>Изучение основ программирования</b> <!-- отметка каждого элемента списка -->
+                    <ul>
+                        <li><i>HTML</i></li>
+                        <li><i>CSS</i></li>
+                        <li><i>Git</i></li>
+                        <li><i>C++</i></li>
+                        <li><i>Python</i></li>
+                    </ul>
+                </li>
+                <li><b>Волейбол</b>
+                    <ul>
+                        <li><i>Играть в связке</i></li>
+                        <li><i>Играть роль либеро</i></li>
+                    </ul>
+                </li>
+                </div>
+            </ol> <!-- закрытие нумерованного списка -->
+        </section>
+        <section id="gallery-hobbies">
+            <h3>Галерея увлечений</h3>
+            <div class="grid-card">
+            <figure>
+                <img src="https://avatars.mds.yandex.net/i?id=707f4339253ec9a0a488201c2956fe3215e0a8ff-5227398-images-thumbs&n=13" alt="Программирование">
+                <figcaption style="color: purple;"><b>Программирование</b></figcaption>
+            </figure>
+            <figure>
+                <img  src="https://avatars.mds.yandex.net/i?id=291d02ff0b73cb065e6006dd99824ed5cd3dc18e-5906493-images-thumbs&n=13" width="550 px" height="300 px" alt="Волейбол">
+                <figcaption style="color: purple;"><b>Волейбол</b></figcaption>
+            </figure>
+            <figure>
+                <img src="https://avatars.mds.yandex.net/i?id=8f6e7adee6f6a2d15b7f33c5ecf8cc2fd396f39c-10696775-images-thumbs&n=13" alt="Компьютерные игры">
+                <figcaption style="color: purple;"><b>Компьютерные игры</b></figcaption>
+            </figure>
+            </div>
+        </section>
+        <aside id = "description of hobbies"> <!-- создание дополнительной информации -->
+          <div style="font-size:20px;">
+            <h4>Описание увлечений</h4> <!-- Заголовок 4 -->
+            <dl> <!-- Описательный  список -->
+                <dt><i>Изучение основ программирования</i></dt> <!-- Термин -->
+                <dd>Осваиваю написание простых команд.</dd> <!-- описание термина -->
+                <dt><i>Волейбол</i></dt>
+                <dd>Люблю играть в команде и чувствовать вайб сосредоточенности.</dd>
+            </dl>  <!-- закрытие описательного  списка -->
+            </div>
+        </aside>  <!-- создание дополнительной информации -->
+    </main> <!--  закрытие основного содержимое страницы -->
+    <aside class="aside-rt">
+        <h3>Мои все контакты</h3>
+        <ul>
+            <li><a href="https://t.me/Maxk7erby" target="_blank">Телеграм</a></li>
+            <li><a href = "https://max.ru/u/f9LHodD0cOKMyT-k2QMI7de5b2y-62Y87FgGY-yaeaStyH9A6fHM_HCtBzA" target = "blank"> MAX</a></li>
+            <li><a href="https://vk.ru/id853755627" target="_blank">ВКонтакте</a></li>
+            <li><a href="https://github.com/Max2311008" target="_blank">GitHub</a></li>
+            <li><a href="https://www.tiktok.com/@k7erby?_r=1&_t=ZS-9BYglitTNG2" target="_blank">TikTok</a></li>
+        </ul>
+    </aside>
+    <footer> @ 2026 г, все права защищены <!-- Подвал сайта -->
+      </footer> <!-- закрытие подвала сайта -->
+      </div>
+</body> <!-- закрывает видимое содержание страницы -->
+</html> <!-- Закрывает информацию о документе -->
