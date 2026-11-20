@@ -232,6 +232,7 @@ footer   { grid-area: footer; }
 
 .aside-rt {
     background-color: var(--color-block);
+    border: 3px solid var(--color-accent);
 }
 .aside-rt ul {
     list-style: none;
